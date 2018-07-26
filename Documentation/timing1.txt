@@ -1,0 +1,8 @@
+
+Send: test 1	// pairs of zeros
+elapsed=10000007 count=5440000
+
+
+Send: test 1	// alternating 0/fff
+elapsed=10000005 count=5439964
+

@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <ItemsProjectGuid>{2a0c0cc6-2508-4ea8-8441-ef17d15a3e7a}</ItemsProjectGuid>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="$(MSBuildThisFileDirectory)readme.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\Modulator\ArbitraryWaveform.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\Modulator\CommandParser.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\Modulator\CommandProcessing.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\Modulator\CommandProcessing.Download.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\Modulator\CommandProcessing.Help.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\Modulator\CommandProcessing.SerialPolling.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\Modulator\CommandProcessing.Tests.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\Modulator\CommandProcessing.Waveforms.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\Modulator\CRC16.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\Modulator\DemoWaveform.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\Modulator\FixedWaveform.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\Modulator\Generator.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\Modulator\HiLowWaveform.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\Modulator\PersistentSettings.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\Modulator\PulseWaveform.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\Modulator\SettingsStruct.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\Modulator\SineWaveform.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\Modulator\StairWaveform.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\Modulator\TestWaveform.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\Modulator\UniformWaveform.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\Modulator\Waveform.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\Modulator\WaveformPadded.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\Modulator\WaveformSequence.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\Modulator\ZeroingMode.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\Modulator\AnalogWriter.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\Modulator\ArbitraryWaveform.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\Modulator\Blinker.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\Modulator\Blinker.OneShot.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\Modulator\Button.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\Modulator\Button.Repeating.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\Modulator\Button.Toggle.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\Modulator\CommandParser.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\Modulator\CommandProcessing.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\Modulator\CRC16.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\Modulator\DemoWaveform.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\Modulator\FixedWaveform.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\Modulator\Generator.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\Modulator\HiLowWaveform.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\Modulator\LedOneShot.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\Modulator\PersistentSettings.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\Modulator\PulseWaveform.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\Modulator\Sample.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\Modulator\SettingsStruct.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\Modulator\SineWaveform.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\Modulator\Stabalizer.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\Modulator\StairWaveform.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\Modulator\TestWaveform.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\Modulator\UniformWaveform.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\Modulator\Waveform.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\Modulator\WaveformPadded.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\Modulator\WaveformSequence.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\Modulator\ZeroingMode.h" />
+  </ItemGroup>
+</Project>

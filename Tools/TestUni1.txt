@@ -1,0 +1,12 @@
+def uni, 10,250
+load 100
+load 200
+load 400
+load 800
+load 2000
+load 2000
+load 1000
+load 800
+load 600
+load 500
+play

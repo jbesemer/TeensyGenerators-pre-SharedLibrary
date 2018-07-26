@@ -1,0 +1,12 @@
+def arb, 10
+load 1000, 100
+load 1000, 2000
+load 100,1000
+load 100,2000
+load 100,1000
+load 100,2000
+load 100,1000
+load 1000, 2000
+load 1000, 500
+load 1000, 100
+play
